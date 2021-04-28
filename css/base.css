@@ -1,5 +1,5 @@
 *, *::after, *::before {
-	box-sizing: border-box;
+	box-sizing: auto;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 	z-index: 100000;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 	background: var(--color-bg-main);
 }
@@ -244,10 +244,12 @@ button:focus {
 	position: relative;
 	padding: 0 2rem 0 0;
 	font-weight: 300;
+	
 }
 
 .section__description-inner {
 	display: block;
+	border-radius: 10px;
 }
 
 .section__img {
@@ -256,10 +258,15 @@ button:focus {
 }
 
 .section__img-inner {
-	width: 100%;
+	width: 50%;
 	height: 100%;
-	background-size: cover;
-	background-position: 50% 50%;
+	background-size: 100% 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-attachment:initial;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section__facts {
