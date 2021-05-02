@@ -15,10 +15,10 @@ body {
 	--color-bg-facts: #000;
 	--color-text-facts: #fff;
 	--color-bg-img: #000;
-	--color-bg-more-1: #fee9b1;
-	--color-bg-more-2: #e0f3ca;
-	--color-bg-more-3: #f3cae8;
-	--color-bg-more-4: #cacaf3;
+	--color-bg-more-1: #b1151b;
+	--color-bg-more-2: #176bbf;
+	--color-bg-more-3: #0084b8;
+	--color-bg-more-4: #bda56e;
 	--color-nav: #ddd;
 	--color-nav-hover: #000;
 	--color-link: #000;
@@ -348,7 +348,7 @@ button:focus {
 	z-index: 300;
 	pointer-events: none;
 	height: 100vh;
-	background: var(--color-bg-facts);
+	background: #e0a19f;
 }
 
 .section__gallery-item {
