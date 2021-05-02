@@ -226,10 +226,10 @@ button:focus {
 }
 
 .section__title {
-	font-size: 10vw;
+	font-size: 8vw;
 	text-transform: lowercase;
 	margin: 0;
-	letter-spacing: -0.35vw;
+	letter-spacing: -0.20vw;
 	position: relative;
 	overflow: hidden;
 }
