@@ -14,10 +14,10 @@ body {
 	--color-menu-item: #fff;
 	--color-menu-item-hover: #e0f3ca;
 	--color-bg-menu: #cbf3ee;
-	--color-bg-facts: #000;
+	--color-bg-facts: #abc;
 	--color-text-facts: #fff;
 	--color-bg-img: #000;
-	--color-bg-more-1: #b1151b;
+	--color-bg-more-1: #cb2821;
 	--color-bg-more-2: #176bbf;
 	--color-bg-more-3: #0084b8;
 	--color-bg-more-4: #bda56e;
@@ -260,12 +260,12 @@ button:focus {
 }
 
 .section__img-inner {
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	background-size: 100% 100%;
-	background-position: 50%;
+	background-position: 100%;
 	background-repeat: no-repeat;
-	background-attachment:initial;
+	background-attachment:auto;
 	display: block;
     margin-left: auto;
     margin-right: auto;
