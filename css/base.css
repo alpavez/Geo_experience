@@ -1,5 +1,7 @@
 *, *::after, *::before {
 	box-sizing: auto;
+	width: auto;
+	height: auto;
 }
 
 body {
